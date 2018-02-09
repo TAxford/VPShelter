@@ -10,6 +10,8 @@ namespace VPShelter
     {
         //Properties
         public string Helper { get; set; }
+        public string Feed { get; set; }
+        public string Water { get; set; }
 
         public Volunteer()
         {
@@ -20,11 +22,11 @@ namespace VPShelter
         {
             EmployeeID = employeeID;
             EmployeeName = employeeName;
-            Helper = helper;
+            Employeetype = helper;
         }
 
        
-
+        //Methods
         public  override int EmpId()
         {
            int employeeId = EmployeeID;
@@ -37,6 +39,18 @@ namespace VPShelter
             return employeeName;
         }
 
+        public string FeedPet(string value)
+        {
+            Feed = value;
+            return "Fed all pets";
+
+        }
+
+        public string WaterPet(string value)
+        {
+            Water = value;
+            return "Watered all pets";
+        }
        
 
     }
