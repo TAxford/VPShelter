@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VPShelter
 {
-    public class VirtualPetShelter
+    public class VirtualPetShelter//look into lists
     {
         //fields
         private int totalPetAmount;
