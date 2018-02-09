@@ -6,19 +6,22 @@ using System.Threading.Tasks;
 
 namespace VPShelter
 {
-    public abstract class Employee
+    abstract class Employee
     {
         //fields
         private int employeeID;
-        
+        private string employeeName;
+        private string employeeType;
 
         //Properties
         public int EmployeeID { get; set; }
-        
+        public string EmployeeName { get; set; }
+        public string Employeetype { get; set; }
 
         //Abstract Method
-        public abstract void EmployeeType();
-        public abstract void EmployeeName();
+        public abstract int EmpId();
+        public abstract string EmpName();
+        
 
 
 

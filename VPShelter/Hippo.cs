@@ -15,10 +15,10 @@ namespace VPShelter
 
         public Hippo(string name, int hunger, int thirst, int boredom)
         {
-            name = name;
-            hunger = hunger;
-            thirst = thirst;
-            boredom = boredom;
+            Name = Name;
+            Hunger = Hunger;
+            Thirst = Thirst;
+            Boredom = Boredom;           
         }
 
     }

@@ -9,7 +9,7 @@ namespace VPShelter
     public class VirtualPetShelter
     {
         //fields
-        private int totalPetAmmount;
+        private int totalPetAmount;
         private int totalPetFeed;
         private int totalVolunteers;
         private int totalEmployees;
