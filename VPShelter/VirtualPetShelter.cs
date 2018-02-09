@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VPShelter
 {
-    class VirtualPetShelter
+    public class VirtualPetShelter
     {
         //fields
         private int totalPetAmmount;

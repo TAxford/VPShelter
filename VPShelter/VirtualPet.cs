@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VPShelter
 {
-    class VirtualPet
+    public class VirtualPet
     {
         //fields
         private string name;
