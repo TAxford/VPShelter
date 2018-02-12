@@ -22,5 +22,7 @@ namespace VPShelter
         public int TotalEmployees { get; set; }
         private int TotalManagers { get; set; }
 
+        List<string> animalList = new List<string>() { "Hayleigh", "Christian", "Chloe" };
+
     }
 }
